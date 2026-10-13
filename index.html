@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Store</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1 class="logo">nike</h1>
+        <ul class="ul-1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <button class="btn">Contact Us <i class="fa-solid fa-phone"></i></button>
+    </div>
+    <div class="product-card">
+        <div class="product-gallery">
+            <img src="images/nike_angled_view.jpg" alt="nike angled view" class="angled-view">
+            <span class="badge">New</span>
+            <img src="images/nike_front_view.jpg" alt="front view" class="nike">
+            <img src="images/nike_back_view.jpg" alt="back view" class="nike">
+            <img src="images/nike_top_view.jpg" alt="top view" class="nike">
+            <img src="images/nike_side_view.jpg" alt="side view" class="nike">
+        </div>
+        <div class="product-info">
+            <h3>NIKE . Running shoes</h3>
+            <h1>Nike Air Max SC</h1>
+            <div class="price">
+            <span class="new">New Price:$120</span>
+            <span class="old">Old Price:$150</span>
+            </div>
+            <span class="rating">Rating ⭐⭐⭐⭐ 4.8 - 120 Reviews</span>
+            <p class="descript">A stylish black and white Nike sneaker designed for everyday comfort and performance.
+            <br> It features a sleek modern look, breathable mesh, and
+            <br> a cushioned sole for a smooth and comfortable feel.</p>
+        </div>
+        <div class="options">
+            <h2>Color Picker</h2>
+            <p class="descript">RED, BLUE, BLACK</p>
+            <div class="box-1">
+            <div class="box red" tabindex="0"></div>
+            <div class="box blue" tabindex="0"></div>
+            <div class="box black" tabindex="0"></div>
+            </div>
+            <h2>Size Selector</h2>
+            <div class="box-2">
+            <div class="boxes" tabindex="0">40</div>
+            <div class="boxes" tabindex="0">41</div>
+            <div class="boxes" tabindex="0">42</div>
+            <div class="boxes" tabindex="0">43</div>
+            <div class="boxes" tabindex="0">44</div>
+            </div>
+            <div class="button-group">
+                <div class="quantity-selector">
+                    <button type="button" class="qty-btn">-</button>
+                    <input type="number" class="qty-input" value="1" min="1">
+                    <button type="button" class="qty-btn">+</button>
+                </div>
+                <button type="button" class="cart-btn">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul class="ul-2">
+            <li><i class="fa-solid fa-house"></i><br>Home</li>
+            <li><i class="fa-solid fa-cart-shopping"></i><br>Cart</li>
+            <li><i class="fa-regular fa-star"></i><br>Favorite</li>
+            <li><i class="fa-solid fa-circle-user"></i><br>Account</li>
+        </ul>
+    </footer>
+</body>
+</html>
